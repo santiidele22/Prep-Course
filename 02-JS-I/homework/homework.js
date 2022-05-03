@@ -4,19 +4,19 @@
 const nuevaString = "Hello Bitchies";
 
 // Crea una variable numérica, puede ser cualquier número:
-const nuevoNum = null;
+const nuevoNum = 2;
 
 // Crea una variable booleana:
-const nuevoBool = null;
+const nuevoBool = true;
 
 // Resuelve el siguiente problema matemático:
-const nuevaResta = 10 - null === 5;
+const nuevaResta = 10 - 5 === 5;
 
 // Resuelve el siguiente problema matemático:
-const nuevaMultiplicacion = 10 * null === 40 ;
+const nuevaMultiplicacion = 10 * 4 === 40 ;
 
 // Resuelve el siguiente problema matemático:
-const nuevoModulo = 21 % 5 === null;
+const nuevoModulo = 21 % 5 === 1;
 
 
 // En los próximos 22 problemas, deberás completar la función.
@@ -28,6 +28,7 @@ const nuevoModulo = 21 % 5 === null;
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
+  return str
   
 }
 
@@ -35,31 +36,36 @@ function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
+  return x + y
   
 }
 
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
+  return x - y 
   
 }
 
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
+  return x * y 
   
 }
 
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
+  return x / y
   
 }
 
 function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
-  // Tu código:
+  // Tu código: 
+  return x === y
   
 }
 
@@ -74,6 +80,7 @@ function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
   // De lo contrario, devuelve "false"
   // Tu código:
+  return num < 90
   
 }
 
@@ -81,12 +88,14 @@ function mayorQueCincuenta(num) {
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
   // De lo contrario, devuelve "false"
   // Tu código:
+  return num > 50
   
 }
 
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
+  return 
   
 }
 
@@ -179,6 +188,7 @@ function obtenerAreaRectangulo(alto, ancho) {
 function retornarPerimetro(lado){
   //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
   //Escribe tu código aquí
+  return lado*lado 
   
 }
 
@@ -186,6 +196,7 @@ function retornarPerimetro(lado){
 function areaDelTriangulo(base, altura){
   //Desarrolle una función que calcule el área de un triángulo.
   //Escribe tu código aquí
+  return base * altura / 2
 
 }
 
